@@ -6,7 +6,8 @@ RUN apk add --no-cache ipmitool tcpdump git python3-dev build-base wget py-cffi 
 # Copy the app from the host folder (probably a cloned repo) to the container
 RUN adduser -s /bin/ash -D conpot
 WORKDIR /opt/
-RUN git clone --depth=1 https://github.com/mushorg/conpot.git
+#RUN git clone --depth=1 https://github.com/mushorg/conpot.git
+RUN git clone --depth=1 https://github.com/mujeebch/conpot.git
 RUN chown conpot:conpot -R /opt/conpot
 
 # Install Python requirements
