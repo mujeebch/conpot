@@ -22,7 +22,7 @@ RUN python3 setup.py install --user --prefix=
 
 # Run test cases
 ENV PATH=$PATH:/home/conpot/.local/bin
-RUN py.test -v
+#RUN py.test -v
 
 RUN pip3 uninstall -y setuptools
 
