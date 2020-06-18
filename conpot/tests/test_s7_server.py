@@ -71,7 +71,7 @@ class TestS7Server(unittest.TestCase):
         dic = {
             17: {1: "v.0.0"},
             28: {
-                1: "Technodrome",
+                1: "Technodrome DADA",
                 2: "Siemens, SIMATIC, S7-200",
                 3: "Mouser Factory",
                 4: "Original Siemens Equipment",
