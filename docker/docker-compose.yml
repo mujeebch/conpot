@@ -1,6 +1,8 @@
 version: "3"
 services:
   conpot:
+    cap_add:
+      - NET_ADMIN
     build: ./
     ports:
      - "80:80" #SCADA UI, http
