@@ -3,7 +3,7 @@
         <!-- General information about the template -->
         <entity name="unit">S7-300</entity>
         <entity name="vendor">Siemens</entity>
-        <entity name="description">Siemens S7-200 CPU with 2 slaves controlling Power Grid</entity>
+        <entity name="description">Siemens S7-300 CPU with 2 slaves controlling Power Grid</entity>
         <entity name="protocols">HTTP, MODBUS, s7comm</entity>
         <entity name="creator">GridLock team</entity>
     </template> 
@@ -63,7 +63,7 @@
                 <value type="value">[0 for b in range(0,32)]</value>
             </key>
             <key name="Copyright">
-                <value type="value">"Siemens Equipment"</value>
+                <value type="value">"Original Siemens Equipment"</value>
             </key>
             <key name="Firmware">
                 <value type="value">"v.2.6.11"</value >
