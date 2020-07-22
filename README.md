@@ -23,3 +23,17 @@ suggest that you go for [quick install](https://conpot.readthedocs.io/en/latest/
 If you want to tinker around and write your own template, change ports etc. We suggest that you do host install.
 You can find instructions on how to install conpot [here](https://conpot.readthedocs.io/en/latest/installation/install.html) and the FAQ [here](https://conpot.readthedocs.io/en/latest/faq.html).
 
+## Changes made by Mujeeb
+
+* We have used the default, IEC104, Guardian_AST, Kamstrup_382 templates and customised those as well.
+* most modifications are done on default template in an attempt to make it look like more real device rather than a honeypot.
+* For the rest of the templates we have modified the port numbers to represent the well known ports for each protocol. 
+* we have added the docker-compose and Docker file for all of the new modifications in a new folder called "Customized Dockerfiles"
+
+## Few challenges in Installation of conpot
+
+* Anyone wants to install on the native Linux OS without running a docker, can use our Dockerfile and follow the steps in there to install on their system. 
+* Use python3 and pip3 for all the development.
+* specify the temporary directory in the command for running conpot as "--temp_dir"
+* install and use authbind for the ports < 1024
+* use authbind in CMD while running conpot or in the shell when running from the computer used for conpot
