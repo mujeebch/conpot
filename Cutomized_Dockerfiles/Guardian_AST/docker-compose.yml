@@ -10,7 +10,7 @@ services:
     container_name: conpot_guardian_ast_customized
     networks:
       iot:
-        ipv4_address: 10.0.96.93
+        ipv4_address: x.x.x.x
     build: ./
     ports:
      - "10001:10001" #SCADA UI, http
