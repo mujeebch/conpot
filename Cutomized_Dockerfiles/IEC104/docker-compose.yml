@@ -10,7 +10,7 @@ services:
     container_name: conpot_iec104_customized
     networks:
       iot:
-        ipv4_address: 10.0.96.92
+        ipv4_address: x.x.x.x
     build: ./
     ports:
      - "2404:2404" #SCADA UI, http
